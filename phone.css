@@ -1,0 +1,814 @@
+@media (min-width: 1300px) {
+	.steps p {
+		font-size: 1rem;
+	}
+	.steps .stepstyle {
+		padding: 7px 10px;
+		font-size: 1.3rem;
+	}
+	.steps img {
+		height: 17vh;
+	}
+}
+/* @media only screen and (max-width:1509px) {
+	.carousel-caption h2 {
+		font-size:56px;
+	}
+} */
+
+
+@media (min-width: 1148px) {
+	.connect .ready p {
+		margin: 3px 19px;
+	}
+    .connect .ready h2 {
+	margin-bottom: 12px;
+	}
+
+    .connect .ready {
+	height: 26vh;
+	}
+	.connect .ready h2 {
+	margin: 104px 0px;
+	}
+	#navbar {
+	flex-direction: column;
+	align-items: left;
+	height: 13vh;
+	overflow: hidden;
+	}
+	#navbar ul {
+	margin: -21px;
+	/* margin: -31px 2px; */
+	}
+	#navbar ul li {
+	margin: -7px;
+	}
+}
+/* #logo img {
+	width: 274px;
+	margin: -87px;
+} */
+@media (max-width: 560px) {
+	#navbar ul li a {
+		font-size: 0.8rem;
+	}
+	/* #logo img {
+		width: 209px;
+		margin: -63px;
+	} */
+}
+/* @media(max-width:240px){
+    #navbar ul li{
+        font-size:0.5rem;
+     }
+
+
+} */
+
+#homeimage {
+	position: relative;
+	color: white;
+	margin: 10px 10px;
+	/* text-align: center; */
+}
+
+#home h1 {
+	font-size: 1.9rem;
+	text-align: center;
+}
+.fontsize {
+	font-size: 1.5rem;
+	text-align: center;
+}
+/* #button1 .but {
+    margin: 90px 35px;
+    padding: 12px 15px;
+} */
+#homeimage h2 {
+	padding: 21px 32px;
+	font-size: 1.8rem;
+	margin: 0px 0px;
+}
+#homeimage p {
+	font-size: 1.2rem;
+	text-align: center;
+	margin: -7px -36px;
+}
+@media (max-width: 788px) {
+	#homeimage {
+		position: relative;
+		color: white;
+	}
+	#homeimage h2 {
+		font-size: 1.5rem;
+		margin: 20px;
+		padding: 30px 102px;
+		/* text-transform: uppercase;
+    text-align: center;    */
+	}
+	#homeimage p {
+		font-size: 1rem;
+		padding: 8px 60px;
+
+		/* color: #dde1ec;
+    font-weight:bolder;  */
+	}
+}
+
+@media (max-width: 560px) {
+	#button1 {
+		display: flex;
+		flex-direction: column;
+	}
+	#button1 .but {
+		/* margin: 10px 0px; */
+		padding: 10px 11px;
+		font-size: 1rem;
+		margin-top: 37px;
+	}
+}
+/* @media(max-width: 1100px){
+#missioncontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+/* .missioncontent{
+    display: flex; */
+/* justify-content: center;
+    align-items: center; */
+/* flex-direction: column; */
+/* width: 66vw; */
+#step {
+	flex-wrap: wrap;
+}
+#whyus {
+	height: 6vh;
+	width: 100vw;
+}
+#why ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: normal;
+	margin: 0px;
+}
+#why #whyus h2 {
+	font-size: 1.5rem;
+}
+#why ul li {
+	font-size: 1rem;
+}
+#brandimage {
+	flex-wrap: wrap;
+}
+/* .brandimg img{
+    width: 10vw;
+} */
+#about h2 {
+	font-size: 1.9rem;
+}
+#contactbutton {
+	display: flex;
+	flex-direction: column;
+	margin: 12px 0px;
+}
+@media (max-width: 700px) {
+	#button1 .but {
+		margin-bottom: 36px;
+	}
+}
+.mail {
+	display: flex;
+	flex-direction: column;
+}
+.connect {
+	flex-direction: column;
+}
+/* .connect .ready {
+    height: 19vh;
+} */
+/* .conbutton {
+    padding: 13px 2px;
+} */
+/* #contactbutton a{
+        margin-bottom: 84px;
+} */
+@media (max-width: 1152px) {
+	.connect .ready {
+		height: auto;
+		width: auto;
+		margin: 29px auto;
+	}
+	.connect .ready h2 {
+		margin: 0px;
+	}
+	.conbutton {
+		font-size: 1rem;
+		width: 10vw;
+		padding: 8px 0px;
+		margin: 7px auto;
+	}
+	.social ul {
+		justify-content: center;
+		margin-left: 0px;
+	}
+	.social {
+		text-align: center;
+	}
+	.mail {
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media (max-width: 1170px) {
+	/* .connect .ready { 
+    margin: 14px auto;
+    } */
+}
+#brand h1 {
+	text-align: center;
+	font-size: 2rem;
+}
+#workheader .workheading {
+	font-size: 1.7rem;
+}
+#mission h1 {
+	font-size: 2.3rem;
+}
+@media (max-width: 490px) {
+	.missioncontent p {
+		font-size: 1rem;
+	}
+}
+/* @media (max-width: 580px) {
+	.about_heading p {
+	}
+} */
+@media (max-width: 450px) {
+	#homeimage h2 {
+		font-size: 1rem;
+		padding: 15px 0px;
+	}
+	#homeimage p {
+		font-size: 0.8rem;
+	}
+	#about .aboutus h1 {
+		font-size: 2.2rem;
+	}
+}
+@media (max-width: 690px) {
+	#homeimage h2 {
+		font-size: 1.4rem;
+		padding: 17px 68px;
+	}
+	/* #homeimage p{
+        font-size: 0.8rem;
+    } */
+}
+@media (max-width:852) {
+	#about {
+		position: relative;
+		padding: 25px 0px;
+	}
+	.about_heading p {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+}
+
+@media (max-width:900) {
+	#about h2 {
+		font-size: 1.2rem;
+	}
+	#about .aboutus h1 {
+		font-size: 2rem;
+		margin: -28px 0px;
+	}
+	.connect .ready p {
+		padding: 0px 10px;
+	}
+}
+@media (max-width: 622px) {
+	#about h2 {
+		font-size: 1.2rem;
+		margin-bottom: 17px;
+	}
+	.about_heading p {
+		font-size: 0.9rem;
+		padding-bottom: 5px;
+	}
+	#about .aboutus h1 {
+		font-size: 2rem;
+		margin: 0px 0px;
+		padding: 18px;
+	}
+	.about_heading h2 {
+		font-size: 1.1rem;
+		margin-bottom: 11px;
+	}
+}
+@media (max-width: 1169px) {
+	.about_heading p {
+		margin: 0px 56px;
+	}
+	#about .aboutus h1 {
+		padding: 26px;
+	}
+	#missioncontent {
+		flex-direction: column;
+	}
+}
+@media (max-width: 1200px) {
+	.missioncontent {
+		height: 223px;
+		width: 489px;
+		margin-bottom: 30px;
+	}
+	.missioncontent h3 {
+		font-size: 1.2rem;
+	}
+	.missioncontent p {
+		padding: 15px 16px;
+		font-size: 1rem;
+	}
+}
+@media (max-width: 530px) {
+	.missioncontent {
+		height: 271px;
+		width: 318px;
+		margin-bottom: 42px;
+	}
+}
+@media (max-width: 800px) {
+	.conbutton {
+		width: 13vw;
+	}
+	.social h1 {
+		font-size: 2rem;
+		margin: 36px 54px;
+	}
+	.mail {
+		font-size: 1.2rem;
+	}
+}
+@media (min-width: 556px) {
+	.connect .ready h1 {
+		margin: 20px 3px;
+		font-size: 2rem;
+	}
+}
+@media (max-width: 700px) {
+	.fontsize {
+		font-size: 1.1rem;
+		padding: 2px 3px;
+	}
+	#home h1 {
+		font-size: 1.8rem;
+		margin: 20px 0px;
+	}
+	#button1 .but {
+		margin-bottom: 36px;
+	}
+	#button1 .but {
+		margin: 41px 35px;
+		margin-bottom: 41px;
+		padding: 6px 26px;
+	}
+	#mission {
+		margin-top: 33px;
+	}
+}
+@media (max-width: 650px) {
+	.conbutton {
+		width: 16vw;
+	}
+}
+@media (max-width: 570px) {
+	#button1 .but {
+		margin: 6px 35px;
+		padding: 5px 13px;
+	}
+	#button1 {
+		padding-bottom: 15px;
+	}
+	#homeimage h2 {
+		font-size: 1.3rem;
+		padding: 17px 3px;
+	}
+	.steps h1 {
+		padding-bottom: 3px;
+		font-size: 1.3rem;
+	}
+	.steps .stepstyle {
+		padding: 6px 10px;
+		font-size: 1rem;
+	}
+	.steps img {
+		height: 14vh;
+		padding-bottom: 1px;
+	}
+	.connect .ready p {
+		padding: 0px 10px;
+		font-size: 1.1rem;
+		margin: 3px 19px;
+	}
+	.connect .ready h1 {
+		padding: 0px 10px;
+	}
+}
+@media (max-width: 570px) {
+	.conbutton {
+		width: 20vw;
+	}
+}
+
+@media (max-width: 400px) {
+	.missioncontent {
+		height: 339px;
+		width: 257px;
+	}
+	.missioncontent p {
+		padding: 15px 13px;
+		font-size: 1rem;
+	}
+	#brand h1 {
+		font-size: 1.8rem;
+	}
+	#why {
+		margin-bottom: 30px;
+	}
+	/* .brandimg img {
+		height: 10vh;
+	} */
+	.conbutton {
+		width: 27vw;
+	}
+}
+@media (max-width: 400px) {
+	.conbutton {
+		font-size: 0.9rem;
+		width: 32vw;
+	}
+	.connect .ready h1 {
+		font-size: 2rem;
+	}
+}
+@media (min-width: 1153px) {
+	.connect .ready h2 {
+		margin-bottom: 4px;
+	}
+}
+
+@media (max-width: 297px) {
+	#home h1 {
+		font-size: 1rem;
+		margin: 14px 0px;
+	}
+	.fontsize {
+		font-size: 1rem;
+		padding: 0px 3px;
+		line-height: 17.1px;
+	}
+	#button1 .but {
+		font-size: 0.8rem;
+	}
+}
+@media (max-width:600px) {
+		#logo img {
+			width: 231px;
+			margin: -79px;
+		}
+	}
+
+@media (max-width: 600px) {
+	#navbar {
+		height: 8vh;
+	}
+	.mission p {
+		text-align: center;
+        margin: 0px 20px;
+		font-size: 1rem;
+}
+}
+@media (max-width: 544px) {
+	.container {
+		margin-right: 14px;
+	}
+	/* #logo img {
+		margin-left: 12px;
+	} */
+	/* #button1 .but:hover {
+		box-shadow: 0 0 9px yellow;
+	} */
+}
+@media (max-width: 225px) {
+	#logo img {
+		width: 183px;
+		margin: -52px;
+	}
+	#navbar {
+		height: 7vh;
+	}
+	.bar1,
+	.bar2,
+	.bar3 {
+		width: 27px;
+		height: 3px;
+	}
+	.container {
+		margin-right: 7px;
+	}
+}
+@media (max-width: 330px) {
+	.steps {
+		padding: 9px 0px;
+	}
+	.steps img {
+		height: 11vh;
+	}
+	.steps h1 {
+		font-size: 1.1rem;
+	}
+	.steps p {
+		font-size: 0.8rem;
+	}
+	.thank h3 {
+		font-size: 0.8rem;
+		padding: 0px 24px;
+	}
+	.thank h1 {
+		font-size: 1rem;
+	}
+	footer {
+		font-size: 0.8rem;
+	}
+}
+
+@media (max-width: 630px) {
+	#container {
+		width: 1280px;
+		height: 100vh;
+		overflow: hidden;
+		margin: auto;
+		border-radius: 20px;
+		border: 1px solid #333;
+	}
+}
+
+/* thank */
+@media (max-width: 1000px) {
+	.thank h1 {
+		font-size: 2rem;
+	}
+}
+@media (max-width: 700px) {
+	.thank h1 {
+		font-size: 1.5rem;
+	}
+}
+@media (max-width: 500px) {
+	.thank h1 {
+		font-size: 1.2rem;
+	}
+}
+@media (max-width: 625px) {
+	form {
+		margin: 19px 81px;
+	}
+	.contacth h1 {
+		font-size: 2rem;
+	}
+}
+@media (max-width: 400px) {
+	form label {
+		font-size: 1rem;
+	}
+	form {
+		margin: 19px 33px;
+	}
+	.contacth h1 {
+		font-size: 1.5rem;
+	}
+	#navbar ul li {
+		margin: -9px;
+	}
+	#navbar ul {
+		padding: 14px 0px;
+	}
+	#logo img {
+		width: 200px;
+		margin: -74px;
+	}
+}
+
+@media (max-width: 250px) {
+	form {
+		margin: 3px 33px;
+	}
+	.contacth h1 {
+		font-size: 1rem;
+	}
+	#navbar ul li a {
+		font-size: 0.6rem;
+	}
+	#navbar ul li a {
+		padding: 1px 6px;
+		margin: 0px 5px;
+	}
+	#logo img {
+		width: 180px;
+		margin: -63px;
+	}
+}
+@media (max-width: 559px) {
+#navbar ul li {
+	margin: -9px;
+}
+#navbar ul {
+	padding: 14px 0px;
+}
+#logo img {
+	width: 200px;
+	margin: -74px;
+}
+}
+@media (max-width:305px) {
+#navbar ul li a {
+	font-size: 0.7rem;
+}
+#navbar ul li a {
+	padding: 1px 7px;
+	margin: 0px 5px;
+}
+#logo img {
+	width: 180px;
+	margin: -63px;
+}
+}
+
+@media (max-width:1205px) {
+
+	.brandmargin{
+		margin: 0px;
+	}
+	.carousel-caption a {
+		padding: 5px 11px;
+	}
+}
+@media (max-width:650px) {
+
+	.brandimg  {
+		margin: 4px 205px;
+	}
+	#brand{
+			margin-bottom: 63px;
+	}
+}
+
+/* @media (max-width:1508px) {
+	/* #button1 .but {
+		margin: 80px 0px;
+	} */
+	/* .carousel-caption h2 {
+		font-size: 52px;
+	}
+
+	#button1 {
+		margin-top: -86px;
+	}
+} */ 
+
+
+@media only screen and (max-width: 800px) {
+	.carousel-caption a{
+		padding: 1px 3px;
+		font-size: 0.5rem;
+	}
+}
+
+/* @media (max-width:785px) {
+	.carousel-caption h2 {
+		font-size: 50px;
+	}
+} */
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* .carousel-caption {
+		padding-bottom: 350px;
+	} */
+	/* .carousel-caption h2 {
+		font-size: 43px;
+	} */
+
+@media only screen and (max-width: 767px) {
+	.navbar-inverse .navbar-brand {
+		font-size: 30px;
+		padding: 20px 15px;
+	}
+	.navbar-collapse {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.carousel-caption {
+		padding-bottom: 120px;
+	}
+	/* .carousel-caption h2 {
+		font-size: 25px;
+	} */
+	.carousel-caption h3 {
+		font-size: 18px;
+	}
+	.carousel-caption a {
+		padding: 10px 25px;
+	}
+}
+@media only screen and (max-width: 744px) {
+	#button1 {
+		margin-top: 5px;
+	}
+	#cards {
+		margin: 27px 98px;
+		margin-bottom: 9rem;
+	}
+	#button1 {
+		margin-top:69px;
+	}
+	.carousel-caption h2 {
+		font-size: 1.7rem;
+	}
+}
+@media only screen and (max-width:1083px) {
+	.carousel-caption a{
+		font-size: 1rem;
+	    padding: 8px 9px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+	.scard{
+		width: 17rem;
+	}
+	#cards {
+		margin: 0px 98px;
+		
+	}
+	/* .navbar-brand img{
+		width: 200px;
+		height: 43px;
+	} */
+	.missioncontent {
+		height: 386px;
+		width: 269px;
+		margin-bottom: -17px;
+	}
+	#workheader{
+		margin-top: 65px;
+	}
+	#whyus {
+		margin-top: 44px;
+	}
+	.carousel-caption a {
+		font-size: 0.8rem;
+		/* padding: 8px 3px; */
+	}
+}
+
+@media only screen and (max-width:340px) {
+		.carousel-caption a {
+			font-size: 0.7rem;
+			padding:0px 0px;
+		}
+		#button1 .but {
+			padding:3px 13px;
+		}
+		#button1 button {
+			border-radius: 9px;
+		}
+		#button1 {
+			margin-bottom: 74px;
+		}
+}
+
+
+/* @media only screen and (max-width:px) {
+	.carousel-caption a{
+		font-size: 1rem;
+	    padding: 8px 9px;
+    }
+} */
+
+
+@media only screen and (max-width:784px) {
+	.micontainer{
+		display: block;
+	}
+	.micontbrand{
+		margin-left:auto;
+
+	}
+	.micontinf{
+		margin-right: auto;
+	}
+}

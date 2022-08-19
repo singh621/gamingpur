@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submitted</title>
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .thank::before{
+        content: "";
+        position: absolute;
+        z-index:-1;
+        opacity:1;
+        height:100%;
+        width:100%;
+        top:0%;
+        background: #dbd4d4;
+    }
+    .thank{
+        position: relative;
+        height:90vh;
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        /* text-align: center; */
+        animation: text 1s 1;
+        font-weight: 693;
+        font-size: 3rem;
+        padding: 30px 0px;
+        /* margin: 47px auto; */
+        /* align-items: center; */
+
+    }
+    h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:blue;
+        margin:20px auto;
+    }
+
+    @keyframes text {
+
+        /* 0%{
+        color:blue;
+        margin-bottom: -40%;
+    } */
+        30% {
+            letter-spacing: 20px;
+            margin-bottom: -40%;
+        }
+
+        85% {
+            /* letter-spacing:1px; */
+            margin-bottom: -40%;
+        }
+
+    }
+</style>
+
+<body>
+    <div class="thank">
+        <h1>Thank You For Contacting Us!</h1>
+        <h3>Our agent will connect with you as soon as possible.</h3>
+    </div>
+    <hr>
+    <footer>
+        &copy; Gamingpur 2021-All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>

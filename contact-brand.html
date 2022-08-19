@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact us</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="phone.css" />
+	</head>
+	<body>
+		<section id="contact">
+			<div class="contacth">
+				<h1>Hello! Brand</h1>
+				<!-- <h2>Let's Work Together</h2> -->
+			</div>
+
+			<!-- <?php
+            $message="";
+            if(isset{$_GET['error']})
+            {
+                $message="Please Fill all the details";
+                echo '<div class="alert=alert-danger">'.$message.'</div>;
+            }
+
+        ?> -->
+
+			<div class="form">
+				<form action="mail_brand.php" method="POST" class="contactus">
+					<label for="name"
+						>Name<span class="red"> <sup>*</sup></span></label
+					>
+					<input type="text" name="name" id="name" placeholder="Enter your Name" required />
+					<label for="email"
+						>Email.<span class="red"> <sup>*</sup></span></label
+					>
+					<input type="email" name="email" id="email" placeholder="Enter your Email ID" required />
+					<label for="phone"
+						>Mobile No.<span class="red"> <sup>*</sup></span></label
+					>
+					<input type="tel" name="phone" id="phone" placeholder="Enter your Mobile no." required />
+					<label for="website-name"
+						>Website/Application Name<span class="red"> <sup>*</sup></span></label
+					>
+					<input type="text" name="web_name" id="website_name" placeholder="Enter website/application Name" required />
+					<label for="channel-link"
+						>Website/Application Url<span class="red"> <sup>*</sup></span></label
+					>
+					<input type="url" name="web_link" id="web-link" placeholder="Enter Website/Application Url" required />
+					<label for="message">Message</label>
+					<textarea name="message" id="message" placeholder="Your message here"></textarea>
+					<div id="submit">
+						<button class="submit" type="submit" name="submit">Submit</button>
+					</div>
+				</form>
+			</div>
+		</section>
+	</body>
+</html>

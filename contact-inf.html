@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Contact Us</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="phone.css" />
+	</head>
+
+	<body>
+		<section id="contact">
+			<div class="contacth">
+				<h1>Let’s Influence Together!</h1>
+				<!-- <h2>Welcome To Our Agency!!</h2> -->
+			</div>
+			<div class="form">
+				<form action="cont_inf.php" method="POST" class="contactus">
+					<label for="name"
+						>Name<span class="red"> <sup>*</sup></span></label
+					>
+					<input type="text" name="name" id="name" placeholder="Enter your Name" required />
+					<label for="email"
+						>Email<span class="red"> <sup>*</sup></span></label
+					>
+					<input type="email" name="email" id="email" placeholder="Enter your Email ID" required />
+					<label for="phone"
+						>Mobile No.<span class="red"> <sup>*</sup></span></label
+					>
+					<input type="tel" name="phone" id="phone" placeholder="Enter your Mobile no." required />
+					<label for="channel-name">Youtube Channel Name</label>
+					<input type="text" name="channel_name" id="channel_name" placeholder="Enter your channel Name" />
+					<label for="channel-link"
+						>Youtube Channel Url<span class="red"> <sup>*</sup></span></label
+					>
+					<input type="url" name="channel_link" id="channel_link" placeholder="Enter your youtube channel Url" required />
+					<label for="message">Message</label>
+					<textarea name="message" id="message" placeholder="Your message here"></textarea>
+				
+			</div>
+			<div id="submit">
+				<button type="submit" name="submit" class="submit">Submit</button>
+			</div>
+        </form>
+		</section>
+	</body>
+</html>
